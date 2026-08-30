@@ -17,6 +17,14 @@ spring:
         format_sql: true
         dialect: org.hibernate.dialect.MySQLDialect
 
+    # Redis Configuration Setup
+#  data:
+#    redis:
+#      host: localhost
+#      port: 6379
+#      password:        # Leave blank if your local Redis instance does not have a password
+#      timeout: 60000ms # Connection timeout configuration
+
 # JWT Configuration
 jwt:
   secret: ThisIsAVeryLongSecretKeyForJwtTokenGenerationMustBeAtLeast256BitsLong1234567890
